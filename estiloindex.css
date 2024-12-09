@@ -1,0 +1,224 @@
+body{
+background-color: #3E2723;
+margin: 0; 
+padding: 0; 
+}
+
+.cuerpo {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cuerpo h1,h2,p {
+    text-align: center;
+    color: #ffffff;
+}
+h3{
+    color: white;
+}
+
+/* esta parte es igual en todos los archivos/*
+/* La parte del header */
+nav {
+    background-color: #C62828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.navegador {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegador li {
+    margin: 15px;
+}
+
+.navegador a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegador a:hover {
+    text-decoration: none;
+    color:#0D47A1 ;
+
+}
+
+/* esta parte es igual en todos los archivos/*
+/*Parte del titulo */
+#titulo {
+    text-align: center;
+    padding: 200px;
+    background: linear-gradient(to bottom, rgba(82, 63, 63, 0.8), rgba(0, 0, 0, 0.8)), url('fotosyvideos/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#titulo a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+
+/* Index.html */
+/* La parte cuerpo */
+#video {
+    text-align: center; 
+    margin: 20px ; 
+}
+
+
+.flex-container  {
+    width: 100%;
+    margin: auto ;
+    display:  flex;
+    flex-flow: row wrap;
+}
+
+.foto-viaje{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+    width: auto;
+    height: 300px;  
+    margin: auto;
+}
+
+img[alt="foto1"],[alt="foto2"],[alt="foto3"],[alt="foto4"]{
+height: 300px;
+}
+
+img[alt="foto1"],[alt="foto3"]{
+width: 200px;
+}
+
+img[alt="foto2"],[alt="foto4"]  {
+    width: 450px ;
+}
+
+.descripcion-viajes {
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(58, 58, 58, 0.1);
+    background: linear-gradient(to bottom, rgba(180, 28, 28, 0.8), rgba(17, 26, 88, 0.8));
+}
+
+.descripcion-viajes a button {
+    background-color: #B71C1C;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.descripcion-viajes a button:hover {
+    background-color: #0D47A1;
+    
+}
+
+.descripcion-mapa {
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(58, 58, 58, 0.1);
+    background: linear-gradient(to bottom,  rgba(17, 26, 88, 0.8), rgba(180, 28, 28, 0.8));
+}
+
+.descripcion-mapa a button {
+    background-color: #0D47A1;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.descripcion-mapa a button:hover {
+    background-color: #B71C1C;
+}
+
+.descripcion-contacto {
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(58, 58, 58, 0.1);
+    background: linear-gradient(to bottom, rgba(15, 14, 14, 0.8), rgba(34, 30, 30, 0.8)), url('fotosyvideos/fondo2.png');
+}
+
+.descripcion-contacto a button {
+    background-color: #0D47A1;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.descripcion-contacto a button:hover {
+    background-color: #B71C1C;
+}
+
+.centrar-video {
+    text-align: center;
+}
+
+/* esta parte es igual en todos los archivos */
+/* footer */
+
+footer {
+    background-color: #C62828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.footer li {
+    margin: 0 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #0D47A1;
+}
+
+.logo {
+    max-width: 100px; 
+    margin: 10px; 
+}
+
+.copy {
+    margin-top: 5px;
+}

@@ -1,0 +1,179 @@
+body{
+    background-color: #3E2723;
+    margin: 0; 
+    padding: 0; 
+    }
+    
+    .cuerpo {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .cuerpo h1,h2,p {
+        text-align: center;
+        color: #ffffff;
+    }
+    h3{
+        color: white;
+    }
+
+/* esta parte es igual en todos los archivos/*
+/* La parte del header */
+nav {
+    background-color: #C62828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.navegador {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegador li {
+    margin: 15px;
+}
+
+.navegador a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegador a:hover {
+    text-decoration: underline;
+    color:#0D47A1 ;
+
+}
+
+/* esta parte es igual en todos los archivos/*
+/*Parte del titulo */
+#titulo {
+    text-align: center;
+    padding: 200px;
+    background: linear-gradient(to bottom, rgba(82, 63, 63, 0.8), rgba(0, 0, 0, 0.8)), url('fotosyvideos/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#titulo a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+/* mis viajes.html */
+/* La parte cuerpo */
+
+table {
+    width: 97%;
+    border-collapse: collapse;
+    margin: 25px ;   
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+    background-color: #0D47A1;
+    color: white;
+}
+
+th {
+    background-color: #C62828;
+    font-weight: bold;
+}
+
+.viajes-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding: 30px; 
+}
+
+.viaje {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(39, 39, 39, 0.1);
+    background-color: #C62828;
+}
+
+.viaje-texto {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.viaje-texto p {
+    text-align: left;
+}
+
+.viaje-imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.viaje-imagen img {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.viaje:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* esta parte es igual en todos los archivos */
+/* footer */
+
+footer {
+    background-color: #C62828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.footer li {
+    margin: 0 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #0D47A1;
+}
+
+.logo {
+    max-width: 100px; 
+    margin: 10px; 
+}
+
+.copy {
+    margin-top: 5px;
+}
